@@ -1,9 +1,9 @@
 id,nombre,partidos_jugados,partidos_titular,goles,asistencias,tarjeta_amarilla,edad,altura,valor,rating,posicion
-0,Alberto Varo,34,34,21,1,2,31,191.0,174640.0,59,Portero
-2,Dani Parra,5,4,3,0,1,24,188.0,91220.0,44,Portero
-4,Joan Oriol,37,36,1,3,9,37,175.0,119000.0,62,Lateral Izquierdo
-5,P. Trigueros,37,37,5,1,6,31,188.0,217500.0,57,Defensa Central
-6,Nacho González,31,31,2,0,8,29,185.0,340340.0,61,Defensa Central
+0,Alberto Varo,.0,174640.0,59,Portero
+2,Dani Parra,.0,91220.0,44,Portero
+4,Joan Oriol,.0,119000.0,62,Lateral Izquierdo
+5,P. Trigueros,0,217500.0,57,Defensa Central
+6,Nacho González,.0,340340.0,61,Defensa Central
 7,Pol Domingo,29,28,0,0,5,24,180.0,392580.0,57,Lateral Derecho
 8,Unai Dufur,18,7,0,0,0,25,187.0,310340.0,54,Defensa Central
 9,Alex Tirlea,19,10,0,0,2,24,182.0,161330.0,49,Lateral Derecho
@@ -17,7 +17,7 @@ id,nombre,partidos_jugados,partidos_titular,goles,asistencias,tarjeta_amarilla,e
 20,Marc Fernández,35,16,5,1,4,34,179.0,355210.0,61,Extremo Izquierdo
 21,Andy Escudero,36,30,4,3,3,24,176.0,377980.0,53,Extremo Izquierdo
 22,Alan Godoy,17,10,3,1,4,21,178.0,262160.0,49,Delantero Centro
-23,David Concha,23,13,2,2,4,27,179.0,429030.0,51,Extremo Izquierdo
+23,David Concha,,51,Extremo Izquierdo
 24,Álex Mula,16,8,0,1,3,27,178.0,976470.0,55,Extremo Izquierdo
 25,G. Santamaría,22,2,0,0,2,29,176.0,507910.0,55,Delantero Centro
 26,Mario Rodríguez,18,4,1,0,0,27,180.0,231400.0,51,Extremo Izquierdo
@@ -33,7 +33,7 @@ id,nombre,partidos_jugados,partidos_titular,goles,asistencias,tarjeta_amarilla,e
 39,Alex Carbonell,31,15,4,0,3,23,172.0,84310.0,39,Lateral Derecho
 40,R. Corral,9,3,0,0,1,26,182.0,411630.0,49,Lateral Izquierdo
 41,Mario Camero,6,6,0,0,0,20,178.0,29050.0,40,Defensa Central
-42,Gorka Garai,32,28,1,0,4,27,179.0,430160.0,54,Mediocentro
+42,Gorka Garai,9.0,430160.0,54,Mediocentro
 43,Jon Guruzeta,35,32,2,9,7,24,185.0,123090.0,42,MP
 44,Armando,32,26,0,2,8,30,179.0,282010.0,55,Mediocentro Defensivo
 45,Álvaro Gete,33,16,1,1,4,23,182.0,180180.0,50,Mediocentro
@@ -10058,7 +10058,7 @@ id,nombre,partidos_jugados,partidos_titular,goles,asistencias,tarjeta_amarilla,e
 12474,Pumareta,32,24,7,0,7,24,191.0,7450.0,39,Delantero Centro
 12475,Carlos Arroyo,17,8,0,0,1,33,180.19254617755735,2240.0,42,Delantero Centro
 12476,Álex López,14,5,2,0,1,20,180.83358912504752,458.33,30,Delantero Centro
-12481,A. Lopez,31,31,59,0,2,0,181.8208342597753,7590.0,47,Portero
+12481,A. Lopez,.8208342597753,7590.0,47,Portero
 12483,Pablo Ayuso,3,3,7,0,0,20,180.833607876063,638.9,35,Portero
 12484,I. Muntaabski,28,28,3,0,7,28,180.4396967264248,7290.0,46,Defensa Central
 12485,M. Kane,28,28,3,0,6,0,181.82056842049056,5030.0,43,Defensa Central
@@ -10069,7 +10069,7 @@ id,nombre,partidos_jugados,partidos_titular,goles,asistencias,tarjeta_amarilla,e
 12491,A. Ruescas,26,25,2,0,12,26,180.5381550717406,5440.0,42,Lateral Derecho
 12492,Alonso,32,26,6,0,3,22,180.7356699007628,7500.0,42,Mediocentro
 12493,J. Rossi,32,28,2,0,9,0,181.8206826483082,6130.0,42,Mediocentro
-12494,S. Langreo,27,24,2,0,11,24,180.63713367284407,8600.0,41,Mediocentro
+12494,S. Langreo,,180.63713367284407,8600.0,41,Mediocentro
 12495,Gallego,6,4,0,0,2,35,180.0940784863292,4000.0,46,MD
 12496,J. Castillo,8,4,0,0,4,22,180.73548817468924,5750.0,42,Mediocentro
 12497,Rubio,7,5,0,0,3,0,181.82045834641173,3970.0,41,Lateral Izquierdo
@@ -10093,7 +10093,7 @@ id,nombre,partidos_jugados,partidos_titular,goles,asistencias,tarjeta_amarilla,e
 12518,Cruz,27,25,1,0,9,30,176.0,31240.0,47,Lateral Izquierdo
 12519,Pablo Cortijo,21,18,0,1,3,22,180.7361756184646,12370.0,42,Lateral Izquierdo
 12520,A. Vera,16,12,0,0,2,0,181.82041473215406,3550.0,41,Defensa Central
-12521,S. Martínez,3,3,1,0,2,23,182.0,15660.0,39,Lateral Derecho
+12521,S. Martínez,82.0,15660.0,39,Lateral Derecho
 12522,G. Marin,3,0,0,0,0,0,181.82012397043638,750.0,38,Defensa Central
 12523,Marcos,28,19,6,0,4,37,174.0,4500.0,49,Mediocentro
 12524,J. Villar,26,24,0,0,9,26,180.54396407548614,61380.0,51,Mediocentro Defensivo
@@ -10105,4 +10105,4 @@ id,nombre,partidos_jugados,partidos_titular,goles,asistencias,tarjeta_amarilla,e
 12530,Xesc Navalón,32,27,19,0,3,26,171.0,24590.0,48,Delantero Centro
 12532,Juanca,19,12,6,0,3,30,180.34482824988783,43710.0,47,Extremo Izquierdo
 12533,Álex Sánchez,30,22,11,0,2,19,180.88398411408153,10760.0,42,Delantero Centro
-12534,Roberto,21,4,1,0,3,22,180.0,777.8,26,Mediocentro
+12534,Roberto,.0,777.8,26,Mediocentro
